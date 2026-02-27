@@ -26,10 +26,24 @@ mcp-server/dist/
 _archive/
 fresh/
 
+# Docs & markdown (keep local, push README only)
+docs/
+*.md
+!README.md
+!**/README.md
+*.excalidraw
+
+# Scripts (keep local)
+scripts/
+*.sh
+*.py
+*.mjs
+!web-client/postcss.config.mjs
+!shared/catalog.mjs
+
 # Misc
 *.tgz
 *.tar.gz
-tech-arch.excalidraw
 
 # Test & debug artifacts
 playwright-report/
